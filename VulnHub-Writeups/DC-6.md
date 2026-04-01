@@ -175,7 +175,8 @@ Check backup script:
 cat /home/jens/backups.sh
 ```
 
-*(Insert Image: backups.sh)*
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/052c0078-a185-40e6-a59f-565b9bbc7e95" />
+
 
 ---
 
