@@ -282,11 +282,7 @@ cat /root/theflag.txt
 
 ---
 
-## 🔥 Attack Chain Summary
 
-Netdiscover → Nmap → Hosts Fix → Nikto → WPScan → Brute Force → RCE → Lateral Movement → Privilege Escalation → Root
-
----
 
 ## 🔥 Attack Chain Summary
 
