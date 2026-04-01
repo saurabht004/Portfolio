@@ -70,6 +70,9 @@ sudo nikto -h http://wordy/
 
 
 
+These findings confirmed that the target was running a WordPress application, 
+which became the primary focus for further enumeration and exploitation.
+
 **Key Findings:**
 
 * Outdated Apache version
